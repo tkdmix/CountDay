@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode user data
+*.xcuserstate
+xcuserdata/
+
+# Build products
+build/
+DerivedData/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Archives
+*.xcarchive
+
+# Other
+*.swp
+*.tmp
+
+# Local signing settings (copy Config/Developer.xcconfig.example)
+Config/Developer.xcconfig
+
+# Local agent and workflow files
+/AGENTS.md
+/CLAUDE.md
+.claude/
+/.mcv-request.md
+/ops/
