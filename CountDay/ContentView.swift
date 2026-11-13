@@ -288,12 +288,16 @@ private struct AboutPrivacyView: View {
     @Binding var dailyCountsJSON: String
     @State private var isShowingDeleteConfirmation = false
 
+    private var appVersion: String {
+        Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
+    }
+
     var body: some View {
         NavigationStack {
             List {
                 Section("About") {
                     Text("CountDay is a simple counter app for keeping track of daily counts.")
-                    LabeledContent("Version", value: "1.1")
+                    LabeledContent("Version", value: appVersion)
                 }
 
                 Section("Privacy") {
