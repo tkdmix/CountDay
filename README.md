@@ -65,3 +65,5 @@ Issues and pull requests are not accepted. For support, contact support@tkdmix.c
 ## License
 
 This project is released under the [MIT License](LICENSE).
+
+The CountDay name and the app icon (`CountDay/Assets.xcassets/AppIcon.appiconset/`) are not covered by the MIT License. All rights reserved.
